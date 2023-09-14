@@ -16,7 +16,7 @@ Hello, I'm Miftahul Huda~
 I'm a mobile developer lived in Surabaya, ID 🇮🇩.
 
 Manchester United Fans.
-And on the way to find my Nakama!
+And on my way to find my Nakama!
 
 ---
 
