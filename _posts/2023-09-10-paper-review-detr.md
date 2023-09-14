@@ -363,7 +363,7 @@ $$\hat{\sigma}=\underset{\sigma \in \mathfrak{S}_N}{\arg \min } \sum_i^N \mathca
 $$-\mathbb{1}_{\left\{c_i \neq \varnothing\right\}} \hat{p}_{\sigma(i)}\left(c_i\right)+\mathbb{1}_{\left\{c_i \neq \varnothing\right\}} \mathcal{L}_{\text {box }}\left(b_i, \hat{b}_{\sigma(i)}\right)$$
 
 - $\hat{p}_{\sigma(i)}\left(c_i\right)$ is class probability
-- $-\mathbb{1}_{\left\{c_i \neq \varnothing\right\}} \hat{p}_{\sigma(i)}\left(c_i\right)$ is when class not empty (non no-object), then multiply with -1. Why -1? because we want to find lowest / minimum cost.
+- $-1_{\left\{c_i \neq \varnothing\right\}} \hat{p}_{\sigma(i)}\left(c_i\right)$ is when class not empty (non no-object), then multiply with -1. Why -1? because we want to find lowest / minimum cost.
   
 **Box cost function**
 
