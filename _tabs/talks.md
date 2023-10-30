@@ -17,14 +17,14 @@ I love sharing about:
 <br>
 Surabaya Tech Community
 <br>
-[Offline](https://www.instagram.com/p/Cy-xHSJRYan/)
+[Offline](https://www.instagram.com/p/Cy-xHSJRYan/) | [Slide](https://docs.google.com/presentation/d/1Yyc_V3-joQmJk02-QrKn6l2ZhCU9eTQJ/edit?usp=sharing&ouid=112412382822492480233&rtpof=true&sd=true) 
 
 
 **Think Outside the Code: Non-Technical Strategies for Success in the WWDC Swift Student Challenge**
 <br>
 Apple Developer Academy @ UC
 <br>
-[Offline](https://www.linkedin.com/feed/update/urn:li:activity:7051548964474523648/)
+[Offline](https://www.linkedin.com/feed/update/urn:li:activity:7051548964474523648/) | [Slide](https://docs.google.com/presentation/d/1_WuRdLsCNpBsFS9UY3YlVpUIrAjr7zL2ejPGuJqiE54/edit?usp=sharing)
 
 
 **Pengenalan Manajemen State Flutter dengan Riverpod**
@@ -32,6 +32,27 @@ Apple Developer Academy @ UC
 SurabayaDev x Hactiv8
 <br>
 [Offline](https://www.instagram.com/p/CvHdL3HxEpt/)
+
+
+**Time Management**
+<br>
+HIMATIF Trunojoyo Madura
+<br>
+[Offline] | [Slide](https://docs.google.com/presentation/d/1ci8p2E1dTntt4c4Rj-UoGcbh6DEDD3tNheObpvgR7Og/edit?usp=sharing)
+
+
+**How to validate your product idea in 5 days**
+<br>
+GDSC Trunojoyo Madura
+<br>
+[Offline](https://www.instagram.com/p/Cj4D8W7yvXf/) | [Slide](https://docs.google.com/presentation/d/1UgK5IucHr4vURsfP-KtfIl9-FgcomFohngoNF_7-A0w/edit?usp=sharing)
+
+
+**Build impactful product for local society**
+<br>
+GDSC Trunojoyo Madura
+<br>
+[Offline](https://www.instagram.com/p/Cj4D8W7yvXf/) | [Slide](https://docs.google.com/presentation/d/1hzC9qKt6R2URomEBOiXdHmrE7nJsn-0qiUk1XKghTz0/edit?usp=sharing)
 
 
 **Google Developer Student Club Talk Series**
