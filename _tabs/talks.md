@@ -6,11 +6,27 @@ order: 5
 
 I love sharing about:
 - Technical (Flutter, SwiftUI, Laravel, VueJS)
+- Career Opportunity
 - Community
 
 
 # Last Talks
 ---
+
+**Hacktoberfest: Introduction Hactoberfest & Git**
+<br>
+Surabaya Tech Community
+<br>
+[Offline](https://www.instagram.com/p/Cy-xHSJRYan/)
+
+
+**Think Outside the Code: Non-Technical Strategies for Success in the WWDC Swift Student Challenge**
+<br>
+Apple Developer Academy @ UC
+<br>
+[Offline](https://www.linkedin.com/feed/update/urn:li:activity:7051548964474523648/)
+
+
 **Pengenalan Manajemen State Flutter dengan Riverpod**
 <br>
 SurabayaDev x Hactiv8
