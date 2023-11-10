@@ -1,5 +1,11 @@
 <div align="center">
 
+  # Run this website
+
+  ```bash
+  bundle exec jekyll serve
+  ```
+
   # Chirpy Jekyll Theme
 
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
