@@ -2,7 +2,7 @@
 layout: post
 title: "Instalasi Laravel 10, Vue 3, Tailwind, dan Pinia"
 author: huda
-categories: [Coding]
+categories: [Coding, Laravel]
 tags: [coding, web, laravel, vue]
 image: /assets/img/posts/2/banner.png
 math: false

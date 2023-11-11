@@ -1,0 +1,53 @@
+---
+layout: page
+---
+
+<!-- <ul>
+    {% for portfolio_item in site.portos %}
+    <li>
+        <img src="{{ portfolio_item.image }}" />
+        <h2><a href="{{ portfolio_item.url }}">{{ portfolio_item.title }}</a></h2>
+        <p>{{ portfolio_item.description }}</p>
+    </li>
+    {% endfor %}
+</ul> -->
+{% include lang.html %}
+
+<div class="row">
+    {% for portfolio_item in site.portos %}
+    <div class="col-lg-6 m-15px-tb">
+        <div class="rounded shadow p-2" style="background: var(--card-bg);">
+            <div class="img_blog">
+                <img src="{{ portfolio_item.image }}" alt="" class="img-fluid rounded mx-auto d-block">
+            </div>
+            <div class="p-2">
+                <div>
+                    <h4 class="fw-bold mb-0 mt-2"><a href="{{ portfolio_item.url }}" class="border-bottom-0">{{ portfolio_item.title }}</a></h4>
+                </div>
+                <div class="mt-0 mb-0">
+                    <p class="text-muted mb-3">{{ portfolio_item.description }}</p>
+                    {% if portfolio_item.categories.size > 0 %}
+
+                    <div class="post-meta pe-3">
+                        <i class="far fa-folder-open fa-fw me-1"></i>
+                        {% for category in portfolio_item.categories %}
+                        {{ category }}
+                        {%- unless forloop.last -%}, {%- endunless -%}
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                    {% if portfolio_item.tech.size > 0 %}
+                    <div class="post-meta">
+                        <i class="fa fa-code fa-fw me-1"></i>
+                        {% for category in portfolio_item.tech %}
+                        {{ category }}
+                        {%- unless forloop.last -%}, {%- endunless -%}
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div> <!-- col -->
+    {% endfor %}
+</div>
