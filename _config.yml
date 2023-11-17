@@ -153,6 +153,7 @@ defaults:
       type: portfolios
     values:
       layout: "portfolios"
+      toc: true # Display TOC column in posts.
   - scope:
       path: _drafts
     values:

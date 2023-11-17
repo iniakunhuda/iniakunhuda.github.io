@@ -42,5 +42,6 @@ export default [
   build('categories'),
   build('page'),
   build('post'),
-  build('misc')
+  build('portfolio'),
+  build('misc'),
 ];

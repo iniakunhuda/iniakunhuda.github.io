@@ -1,15 +1,17 @@
 ---
 layout: portfolio
 title: Aratamart
-categories: [Website]
+porto_categories: [Website]
 tech: [Laravel, Vue, PWA]
 description: E-Grocery website that help user order fresh daily needs
-image: /assets/img/portfolios/aratamart.png
+image: /assets/img/portos/aratamart/banner.png
 ---
 
-<a style="background-color:#009855;color:#FFF" class="btn rounded no-hover" href="https://aratamart.id" target="blank">
-<i class="fas fa-arrow-right me-3"></i> Open Website
+<a class="img-link btn rounded bg-primary text-white" href="https://aratamart.id" target="blank">
+    <i class="fas fa-link me-3"></i> View Website
 </a>
+
+## About
 
 Aratamart is a startup that operates in the fresh groceries sector with the aim of helping housewives make it easier and faster to shop for their daily needs. I work as a software engineer in this company. 
 
@@ -22,3 +24,43 @@ There are many features in this website like:
 - Point & voucher system
 - and security protection for transaction process
 
+
+
+## Project Description
+
+| Title | Desc |
+| --- | --- |
+| Project | Company |
+| Duration | Release v1.0 in 3 months, still maintaining the website |
+| Teams | 4 persons |
+  
+### Tech Stack
+
+| Desc | Stack / Tools |
+| --- | --- |
+| Language | Laravel, Vue |
+| UI Framework | Bootstrap |
+| Library | VueX (State Management) <br> Midtrans & Xendit (Payment) |
+| Database | MongoDB |
+| Architecture | Component Based |
+| Version Control | Git |
+| Design Tools | Figma |
+| Collaboration Tools | Jira |
+
+
+### Role
+
+Work as full-stack developer
+
+### Responsibility
+
+in progress... ✍🏻
+
+
+## Takeaways
+
+in progress... ✍🏻
+
+## Screenshot
+
+in progress... ✍🏻

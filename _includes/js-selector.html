@@ -11,7 +11,7 @@
 
 <!-- layout specified -->
 
-{% if page.layout == 'post' or page.layout == 'page' or page.layout == 'home' %}
+{% if page.layout == 'post' or page.layout == 'portfolio' or page.layout == 'page' or page.layout == 'home' %}
 {% assign urls = urls | append: ',' | append: site.data.origin[type].lazysizes.js %}
 
 {% unless page.layout == 'home' %}
@@ -30,6 +30,7 @@ or page.layout == 'post'
 or page.layout == 'archives'
 or page.layout == 'category'
 or page.layout == 'tag'
+or page.layout == 'portfolio'
 %}
 {% assign locale = site.lang | split: '-' | first %}
 
@@ -46,10 +47,10 @@ or page.layout == 'tag'
 %}
 {% endif %}
 
-{% if page.content contains '<h2' or page.content contains '<h3' and site.toc and page.toc %} {% assign urls=urls |
+{% if page.content contains '<h2' or page.content contains '<h3' and site.toc %} {% assign urls=urls |
   append: ',' | append: site.data.origin[type].toc.js %} {% endif %} {% if page.mermaid %} {% assign urls=urls |
   append: ',' | append: site.data.origin[type].mermaid.js %} {% endif %} {% include jsdelivr-combine.html urls=urls %}
-  {% case page.layout %} {% when 'home' , 'categories' , 'post' , 'page' %} {% assign js=page.layout %} {%
+  {% case page.layout %} {% when 'home' , 'categories' , 'post' , 'page' %} {% assign js=page.layout %} {% when 'portfolio' %} {% assign js='post' %} {%
   when 'archives' , 'category' , 'tag' %} {% assign js='misc' %} {% else %} {% assign js='commons' %} {% endcase %} {%
   capture script %}/assets/js/dist/{{ js }}.min.js{% endcapture %} <script defer src="{{ script | relative_url }}">
   </script>

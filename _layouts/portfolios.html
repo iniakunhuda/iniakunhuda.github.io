@@ -1,36 +1,50 @@
 ---
 layout: page
+panel_includes:
+  - toc
 ---
 
-<!-- <ul>
-    {% for portfolio_item in site.portos %}
-    <li>
-        <img src="{{ portfolio_item.image }}" />
-        <h2><a href="{{ portfolio_item.url }}">{{ portfolio_item.title }}</a></h2>
-        <p>{{ portfolio_item.description }}</p>
-    </li>
+<div id="tags" class="d-flex flex-wrap mx-xl-2 mb-3">
+    {% assign category_counts = site.portos | map: 'porto_categories' | flatten | category_count %}
+
+    <div>
+        <a class="tag" href="javascript:void(0);" onclick="filterPortfolio('all')">
+            All
+            <span class="text-muted">{{ site.portos | size }}</span>
+        </a>
+    </div>
+    {% for category in category_counts %}
+    <div>
+        <a class="tag" href="javascript:void(0);" onclick="filterPortfolio('{{ category[0][0] | join: ',' }}')">
+            {{ category[0][0] }}
+            <span class="text-muted">{{ category[1] }}</span>
+        </a>
+    </div>
     {% endfor %}
-</ul> -->
+</div>
+
 {% include lang.html %}
 
-<div class="row">
+<div class="row" id="portfolioItems">
     {% for portfolio_item in site.portos %}
-    <div class="col-lg-6 m-15px-tb">
+    <div class="col-lg-6 m-15px-tb mb-4 portfolio-item"
+        data-categories="{{ portfolio_item.porto_categories | join: ',' }}">
         <div class="rounded shadow p-2" style="background: var(--card-bg);">
             <div class="img_blog">
                 <img src="{{ portfolio_item.image }}" alt="" class="img-fluid rounded mx-auto d-block">
             </div>
             <div class="p-2">
                 <div>
-                    <h4 class="fw-bold mb-0 mt-2"><a href="{{ portfolio_item.url }}" class="border-bottom-0">{{ portfolio_item.title }}</a></h4>
+                    <h4 class="fw-bold mb-0 mt-2"><a href="{{ portfolio_item.url }}" class="border-bottom-0">{{
+                            portfolio_item.title }}</a></h4>
                 </div>
                 <div class="mt-0 mb-0">
                     <p class="text-muted mb-3">{{ portfolio_item.description }}</p>
-                    {% if portfolio_item.categories.size > 0 %}
-
+                    
+                    {% if portfolio_item.porto_categories.size > 0 %}
                     <div class="post-meta pe-3">
                         <i class="far fa-folder-open fa-fw me-1"></i>
-                        {% for category in portfolio_item.categories %}
+                        {% for category in portfolio_item.porto_categories %}
                         {{ category }}
                         {%- unless forloop.last -%}, {%- endunless -%}
                         {% endfor %}
@@ -51,3 +65,19 @@ layout: page
     </div> <!-- col -->
     {% endfor %}
 </div>
+
+<script>
+    function filterPortfolio(category) {
+        var portfolioItems = document.querySelectorAll('.portfolio-item');
+
+        portfolioItems.forEach(function (item) {
+            var categories = item.getAttribute('data-categories');
+            console.log(category, categories, categories.includes(category));
+            if (categories.includes(category) || category === 'all') {
+                item.style.display = 'block';
+            } else {
+                item.style.display = 'none';
+            }
+        });
+    }
+</script>
