@@ -102,11 +102,11 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/slideshow.css' | relative_url }}">
 
-  {% if site.toc and page.toc %}
+  {% if site.toc %}
   <link rel="stylesheet" href="{{ site.data.origin[type].toc.css | relative_url }}">
   {% endif %}
 
-  {% if page.layout == 'page' or page.layout == 'post' %}
+  {% if page.layout == 'page' or page.layout == 'post' or page.layout == 'portfolio' %}
   <!-- Manific Popup -->
   <link rel="stylesheet" href="{{ site.data.origin[type].magnific-popup.css | relative_url }}">
   {% endif %}
