@@ -21,7 +21,7 @@ Child will learn basic math, how to manage finance, and prioritize things to buy
 | Title | Desc |
 | --- | --- |
 | Project | Personal |
-| Duration | 1 months |
+| Duration | 1 month |
 | Teams | Personal |
   
 ### Tech Stack
@@ -52,4 +52,7 @@ in progress... ✍🏻
 
 ## Screenshot
 
-in progress... ✍🏻
+| <img src="/assets/img/portos/help-mom/1.png" alt="Porto 1" /> 
+| <img src="/assets/img/portos/help-mom/2.png" alt="Porto 2" />
+| <img src="/assets/img/portos/help-mom/3.png" alt="Porto 3" /> 
+| <img src="/assets/img/portos/help-mom/4.png" alt="Porto 4" />

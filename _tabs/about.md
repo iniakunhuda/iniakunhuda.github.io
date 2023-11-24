@@ -28,8 +28,8 @@ And on my way to find my Nakama!
 
 **Community:**
 
--   Core Team Google Developer Group (GDG) Surabaya
 -   Co-Lead SurabayaDev
+-   Core Team Google Developer Group (GDG) Surabaya
 
 <br>
 
