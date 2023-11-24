@@ -4,7 +4,7 @@ title: "Tutorial Flutter Riverpod: Studi kasus counter app"
 author: huda
 categories: [Coding, Flutter]
 tags: [coding, mobile, flutter]
-image: /assets/img/posts/2/banner.png
+image: /assets/img/posts/3/banner.png
 math: false
 ---
 
@@ -176,4 +176,4 @@ Kamu bisa mengunduh seluruh kodenya disini prend.
 
 > **_🔥 Tantangan_**_Tambahkan tombol untuk mengurangi state_ `_counter_` _di bawah tombol plus dan panggil fungsi .decrement_()
 
-![](https://miro.medium.com/v2/resize:fit:640/1*DRiB5351BhsOQ8Byct3S6A.gif){: .shadow .rounded-10 .bg-white }
+![](https://miro.medium.com/v2/resize:fit:640/1*DRiB5351BhsOQ8Byct3S6A.gif)
