@@ -703,7 +703,7 @@ import BlogList from "@/components/BlogList.vue";
 
 ## API dari Notion
 
-Buat akun terlebih dahulu di notion.so. Setelah terdaftar, buka halaman <a href="">notion blog</a> berikut dan klik tombol **Duplicate**
+Buat akun terlebih dahulu di notion.so. Setelah terdaftar, buka halaman <a href="https://notehuda.notion.site/notehuda/1d30a536b01f4145a60127c2ebe829aa?v=bfa7df3f9e874a8d9193fe5ed1f970b2">notion blog</a> berikut dan klik tombol **Duplicate**
 
 
 ![](/assets/img/posts/4/notion-1.png){: .shadow .rounded-10 .bg-white }
