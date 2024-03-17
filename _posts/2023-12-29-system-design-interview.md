@@ -4,7 +4,7 @@ title: "[save] System Design Interview"
 author: huda
 categories: [System Design]
 tags: [system design]
-image: /assets/img/posts/7/banner.png
+image: /assets/img/posts/7/banner7.png
 math: true
 ---
 

@@ -4,7 +4,7 @@ title: "Pengalaman mendapatkan job pertama sebagai software engineer"
 author: huda
 categories: [Career]
 tags: [career, software engineer]
-image: /assets/img/posts/8/banner.png
+image: /assets/img/posts/8/banner8.png
 math: true
 ---
 ## Latar Belakang
