@@ -2,8 +2,8 @@
 layout: post
 title: "Generate 1000 Sertifikat Otomatis dalam 3 detik dengan Python"
 author: huda
-categories: [Paper Review]
-tags: [Coding, Python]
+categories: [Coding, Python]
+tags: [coding, python]
 image: /assets/img/posts/5/banner.png
 math: true
 ---
