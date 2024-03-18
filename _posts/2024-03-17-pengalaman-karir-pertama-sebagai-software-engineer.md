@@ -9,7 +9,7 @@ math: true
 ---
 ## Latar Belakang
 
-Pada artikel ini, saya akan berbagi pengalaman bagaimana tips saya mendapatkan job pertama sebagai software engineer. Saya mendapatkan pekerjaan pertama kali saat kelas 7 SMK sebagai freelancer hingga sampai saat ini (artikel ini ditulis) pekerjaan saya sebagai mobile developer di salah satu perusahaan aviasi terbesar di Indonesia.
+Pada artikel ini, saya akan berbagi pengalaman bagaimana tips saya mendapatkan job pertama sebagai software engineer. Saya mendapatkan pekerjaan pertama kali saat kelas 10 SMK sebagai freelancer hingga sampai saat ini (artikel ini ditulis) pekerjaan saya sebagai mobile developer di salah satu perusahaan aviasi terbesar di Indonesia.
 
 Saya belajar programming sejak kelas 9 SMP. Bahasa pemrograman pertama saya adalah Java. Saya saat itu belum pakai laptop yang mumpuni, hanya punya 1 notebook acer aspire 1 dengan ram 2GB mirip laptop di bawah ini. Saat itu kalau mau ngerunning program java yang sederhana pakai netbeans, harus nunggu 10 menit lebih baru output programnya bisa muncul 😂
 

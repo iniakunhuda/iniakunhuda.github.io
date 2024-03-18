@@ -69,6 +69,7 @@ google_analytics:
 #     dark   - Use the dark color scheme
 #
 theme_mode: # [light|dark]
+  dark
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -94,10 +95,10 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
+    repo: iniakunhuda/iniakunhuda.github.io
+    repo_id: MDEwOlJlcG9zaXRvcnkyNDIxODc2MDM=
+    category: General
+    category_id: DIC_kwDODm99U84CeCkl
     mapping: # optional, default to 'pathname'
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
