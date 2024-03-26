@@ -4,7 +4,7 @@ title: Aratameals
 porto_categories: [Website]
 tech: [Laravel, Vue, PWA]
 description: Startup to help order foods from multiple restaurants with flat-rate shipping
-image: /assets/img/portos/aratameal/banner.png
+image: /assets/img/portos/aratameal/banner-new.png
 ---
 
 <a class="img-link btn rounded bg-primary text-white" href="https://aratameals.id" target="blank">

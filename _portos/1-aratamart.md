@@ -4,7 +4,7 @@ title: Aratamart
 porto_categories: [Website]
 tech: [Laravel, Vue, PWA]
 description: E-Grocery website that help user order fresh daily needs
-image: /assets/img/portos/aratamart/banner.png
+image: /assets/img/portos/aratamart/banner-new.png
 ---
 
 <a class="img-link btn rounded bg-primary text-white" href="https://aratamart.id" target="blank">
