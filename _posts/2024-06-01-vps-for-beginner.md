@@ -171,7 +171,7 @@ sudo mkdir /var/www/html/cv
 #### 2. Ubah permission folder.
 
 ```bash
-sudo chown -R www-data:www-data /var/www/html/cv
+sudo chown -R $USER:$USER /var/www/html/cv
 ```
 
 #### 3. Clone repository web.
