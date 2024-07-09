@@ -168,23 +168,19 @@ Berikut langkah-langkahnya.
 sudo mkdir /var/www/html/cv
 ```
 
-#### 2. Masuk ke folder tersebut.
+#### 2. Ubah permission folder.
 
 ```bash
-cd /var/www/html/cv
+sudo chown -R www-data:www-data /var/www/html/cv
 ```
 
 #### 3. Clone repository web.
 
 ```bash
+cd /var/www/html/cv
 git clone https://github.com/iniakunhuda/cv-site.git .
 ```
 
-#### 4. Ubah permission folder.
-
-```bash
-sudo chown -R www-data:www-data /var/www/html/cv
-```
 
 #### 5. Buka browser dan akses IP VPS kamu misalnya 172.168.111.111/cv Jika berhasil, kamu akan melihat web yang sudah di-deploy.
 
