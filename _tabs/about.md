@@ -4,33 +4,12 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-<img src="https://avatars.githubusercontent.com/u/22344814?v=4" width="130" height="130" style="border-radius:50%"/>
-<p style="text-align: center">
-    <a href="https://drive.google.com/file/d/1uKU3n-zeQaG8QGjThZofuD918RGFUmhb/view?usp=drive_link" target="_blank">Portfolio</a>&nbsp;&nbsp;&nbsp; • &nbsp;&nbsp;&nbsp;<a href="https://drive.google.com/file/d/1hkG4gPnDbuJI1hi4WFOkE_vJmK_2MWd8/view?usp=sharing" target="_blank">Curiculum Vitae (CV)</a>
-</p>
 
----
+Hey there 👋, my name is Miftahul huda and I am a fullstack developer. I have experience contributing and leading multiple projects such as E-grocery App, Marketplace, Agency, and Super Apps for internal team. I find satisfaction developing digital products that have good performace and have a nice user experience. 
 
-Hello, I'm Miftahul Huda~
+Born and raised in 🇮🇩 Surabaya, Indonesia. Received my bachelor's degree on Informatics at Trunojoyo Madura University. Currently working as a mobile developer, and organized GDG Surabaya & Surabaya Dev.
 
-I'm a mobile developer lived in Surabaya, ID 🇮🇩.
+I started my programming journey in 2016 by learning laravel and codeigniter. I began exploring a lot of things, from web development, mobile developer, and artificial intelligence (AI). Technology is very interesting to me because I can pour my creativity into it.
 
-Manchester United Fans.
-And on my way to find my Nakama!
-
----
-
-**Technical Experience:**
-
--   Mobile: Flutter, SwiftUI, UIKit, CloudKit, CoreData
--   Web: Vue.js, Nuxt.js, Laravel, Go
--   Others: Docker, Git, MySql, MongoDB, Redis
-
-**Community:**
-
--   Co-Lead SurabayaDev
--   Core Team Google Developer Group (GDG) Surabaya
-
+In 2022, I focused on mobile developer, developing various products using Flutter & SwiftUI (Apple SDK) Since then, I have had the privilege of building software for agencies, startups, and communities.
 <br>
-
-[![Iniakunhuda's GitHub stats](https://github-readme-stats.vercel.app/api?username=iniakunhuda&show_icons=true)](https://github.com/iniakunhuda)
