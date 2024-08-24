@@ -5,7 +5,7 @@ order: 4
 ---
 
 
-Hey there 👋, my name is Miftahul huda and I am a fullstack developer. I have experience contributing and leading multiple projects such as E-grocery App, Marketplace, Agency, and Super Apps for internal team. I find satisfaction developing digital products that have good performace and have a nice user experience. 
+Hey there 👋, my name is Miftahul Huda and I am a fullstack developer. I have experience contributing and leading multiple projects such as E-grocery App, Marketplace, Agency, and Super Apps for internal team. I find satisfaction developing digital products that have good performace and have a nice user experience. 
 
 Born and raised in 🇮🇩 Surabaya, Indonesia. Received my bachelor's degree on Informatics at Trunojoyo Madura University. Currently working as a mobile developer, and organized GDG Surabaya & Surabaya Dev.
 
