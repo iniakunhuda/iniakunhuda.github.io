@@ -54,10 +54,37 @@ in progress... ✍🏻
 
 ## Takeaways
 
-in progress... ✍🏻
+- **Agile Development** - This project was developed using an agile methodology, with regular sprints and standup meetings to track progress and address any issues that arose.
+
+- **Learned about Best Practice Laravel and MongoDB** - This project is built with Laravel and MongoDB, which allowed me to learn more about these technologies and how they can be used together to build a web application.
 
 ## Screenshot
 
-| <img src="/assets/img/portos/kampung-kue/1.png" alt="Porto 1" /> | <img src="/assets/img/portos/kampung-kue/2.png" alt="Porto 2" />
-| <img src="/assets/img/portos/kampung-kue/3.png" alt="Porto 3" /> | <img src="/assets/img/portos/kampung-kue/4.png" alt="Porto 4" />
-| <img src="/assets/img/portos/kampung-kue/5.png" alt="Porto 5" /> | <img src="/assets/img/portos/kampung-kue/6.png" alt="Porto 6" />
+<table>
+    <tbody>
+        <tr>
+            <td>
+                <img src="/assets/img/portos/kampung-kue/1.png" alt="Porto 1" />
+            </td>
+            <td>
+                <img src="/assets/img/portos/kampung-kue/2.png" alt="Porto 2" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="/assets/img/portos/kampung-kue/3.png" alt="Porto 3" />
+            </td>
+            <td>
+                <img src="/assets/img/portos/kampung-kue/4.png" alt="Porto 4" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="/assets/img/portos/kampung-kue/5.png" alt="Porto 5" />
+            </td>
+            <td>
+                <img src="/assets/img/portos/kampung-kue/6.png" alt="Porto 6" />
+            </td>
+        </tr>
+    </tbody>
+</table>

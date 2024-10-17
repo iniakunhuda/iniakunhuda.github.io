@@ -5,12 +5,12 @@ panel_includes:
 ---
 
 <div id="tags" class="d-flex flex-wrap mx-xl-2 mb-3">
-    {% assign category_counts = site.portos | map: 'porto_categories' | flatten | category_count %}
+    {% assign category_counts = site.portofolio | map: 'porto_categories' | flatten | category_count %}
 
     <div>
         <a class="tag" href="javascript:void(0);" onclick="filterPortfolio('all')">
             All
-            <span class="text-muted">{{ site.portos | size }}</span>
+            <span class="text-muted">{{ site.portofolio | size }}</span>
         </a>
     </div>
     {% for category in category_counts %}
@@ -26,7 +26,7 @@ panel_includes:
 {% include lang.html %}
 
 <div class="row" id="portfolioItems">
-    {% for portfolio_item in site.portos %}
+    {% for portfolio_item in site.portofolio %}
     <div class="col-lg-6 m-15px-tb mb-4 portfolio-item"
         data-categories="{{ portfolio_item.porto_categories | join: ',' }}">
         <div class="rounded shadow p-2" style="background: var(--card-bg);">

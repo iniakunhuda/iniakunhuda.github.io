@@ -20,10 +20,10 @@ lang: en
 
 title: Miftahul Huda # the main title
 
-tagline: Exploring mobile dev and business # it will display as the sub-title
+tagline: Exploring bagaimana sistem design software bekerja  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A personal blog of Miftahul Huda, a mobile developer from Surabaya, Indonesia
+  A personal blog of Miftahul Huda, a software developer from Surabaya, Indonesia
 
 cv: davewhipp
 
@@ -134,9 +134,9 @@ collections:
   tabs:
     output: true
     sort_by: order
-  portos:
+  portofolio:
     output: true
-    permalink: /portos/:title
+    permalink: /portofolio/:title
 
 defaults:
   - scope:
