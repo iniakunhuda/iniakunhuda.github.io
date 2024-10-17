@@ -160,7 +160,7 @@ export default {
 ```vue
 <template lang="">
     <div>
-        <h1 class="text-3xl">Blog Detail {{ $route.params.id }}</h1>
+        <h1 class="text-3xl">Blog Detail {{ route.params.id }}</h1>
     </div>
 </template>
 <script>
