@@ -41,7 +41,7 @@ function updateImages(current, reverse) {
   }
 
   if (reverse === null) {
-    reverse = GLightbox({ selector: `${selector}` });
+    reverse = GLightbox({ selector: `${selector}`, slideEffect: 'none', openEffect: 'none', closeEffect: 'none', loop: true });
   }
 
   [current, reverse] = [reverse, current];
@@ -66,7 +66,7 @@ export function imgPopup() {
     selector = darkImages;
   }
 
-  let current = GLightbox({ selector: `${selector}` });
+  let current = GLightbox({ selector: `${selector}`, slideEffect: 'none', openEffect: 'none', closeEffect: 'none', loop: true });
 
   if (hasDualImages && document.getElementById('mode-toggle')) {
     let reverse = null;
