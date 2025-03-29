@@ -15,6 +15,8 @@ tabs:
   tags: Tags
   archives: Archives
   about: About
+  portfolio: Portfolio
+  talks: Talks
 
 # the text displayed in the search bar & search results
 search:

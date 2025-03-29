@@ -13,6 +13,20 @@ I love sharing about:
 # Last Talks
 ---
 
+**AWS User Online Group Indonesia Meetup #1, 2025**
+<br>
+AWS User Online Group Indonesia
+<br>
+[Online: Youtube](https://www.youtube.com/watch?v=MnM5JfVA7QI)
+
+
+**Flutter in Production Extended GDG Surabaya, 2025**
+<br>
+Google Developer Group (GDG) Surabaya
+<br>
+[Offline](https://www.instagram.com/p/DEmpx7rTxfQ/)
+
+
 **Hacktoberfest: Introduction Hactoberfest & Git**
 <br>
 Surabaya Tech Community
